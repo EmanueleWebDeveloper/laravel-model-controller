@@ -13,6 +13,6 @@ class PageController extends Controller
         $movies = Movie::All();
 
 
-        return view( 'welcome',compact( 'movies ') );
+        return view( 'welcome',compact( 'movies') );
     }
 }
